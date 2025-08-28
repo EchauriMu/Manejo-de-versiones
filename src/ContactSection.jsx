@@ -35,22 +35,22 @@ const ContactSection = ({ socialLinks }) => (
             custom={1}
             variants={fadeInUp}
           >
-            <h3>Contact Us</h3>
+            <h3>Contactanos</h3>
             <div className="contact-items">
               {[
                 {
                   icon: <Phone />,
-                  title: "Phone",
-                  text: "+52 1 311 393 6827"
+                  title: "Telefono",
+                  text: "+52 1 311 244 1211"
                 },
                 {
                   icon: <Mail />,
-                  title: "Email",
-                  text: "aterrapv@gmail.com"
+                  title: "Correo",
+                  text: "aterrapv@outlook.com"
                 },
                 {
                   icon: <MapPin />,
-                  title: "Location",
+                  title: "Ubicación",
                   text: "Miramar 805, Downtown, Puerto Vallarta, Jalisco"
                 }
               ].map((item, i) => (
@@ -72,7 +72,7 @@ const ContactSection = ({ socialLinks }) => (
             </div>
 
             <motion.div className="contact-social" custom={5} variants={fadeInUp}>
-              <h4>Follow Us</h4>
+              <h4>Siguenos</h4>
               <div className="social-links">
                 {socialLinks.map((social) => (
                   <SocialIcon
@@ -91,9 +91,9 @@ const ContactSection = ({ socialLinks }) => (
             </motion.div>
 
             <motion.div className="hours-card" custom={6} variants={fadeInUp}>
-              <h4>Business Hours</h4>
-              <p>Monday to Friday: 9:00 am - 7:00 pm</p>
-              <p>Saturday: 10:00 am - 2:00 pm</p>
+              <h4>Horas de trabajo</h4>
+              <p>Lunesa viernes: 10:00 am - 6:00 pm</p>
+              <p>Sabados: 11:00 am - 4:00 pm</p>
             </motion.div>
           </motion.div>
         </Col>
@@ -104,7 +104,7 @@ const ContactSection = ({ socialLinks }) => (
             custom={7}
             variants={fadeInUp}
           >
-            <h3>Ready to schedule an appointment?</h3>
+            <h3>¿Estás listo para programar una cita?</h3>
             <Row gutter={[16, 16]}>
               <Col xs={24} sm={12}>
                 <Button
@@ -129,18 +129,18 @@ const ContactSection = ({ socialLinks }) => (
                   className="contact-button phone"
                   style={{ marginBottom: 8 }}
                 >
-                  Call
+                  LLAMAR
                 </Button>
               </Col>
               <Col xs={24}>
                 <Button
                   type="default"
                   block
-                  href="mailto:aterrapv@gmail.com"
+                  href="mailto:aterrapv@outlook.com"
                   icon={<Mail />}
                   className="contact-button email"
                 >
-                  Email
+                  CORREO
                 </Button>
               </Col>
             </Row>
