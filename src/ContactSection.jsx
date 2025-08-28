@@ -92,8 +92,8 @@ const ContactSection = ({ socialLinks }) => (
 
             <motion.div className="hours-card" custom={6} variants={fadeInUp}>
               <h4>Horas de trabajo</h4>
-              <p>Lunes a viernes: 10:00 am - 6:00 pm</p>
-              <p>Sabados: 11:00 am - 4:00 pm</p>
+              <p>Lunes a viernes: 9:00 am - 6:00 pm</p>
+              <p>Sabados: 10:00 am - 4:00 pm</p>
             </motion.div>
           </motion.div>
         </Col>
