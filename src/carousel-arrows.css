@@ -1,0 +1,19 @@
+.ant-carousel .slick-arrow {
+  color: #1657fa !important;
+    background: #fff3e0 !important;
+  z-index: 2;
+}
+.ant-carousel .slick-arrow.slick-prev,
+.ant-carousel .slick-arrow.slick-next {
+
+  border-radius: 50%;
+
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.ant-carousel .slick-arrow:hover {
+  color: blue !important;
+  background: #fff3e0 !important;
+  scale: 1.5 !important;
+}
