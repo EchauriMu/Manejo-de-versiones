@@ -24,7 +24,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.9, delay: 0.3, ease: 'easeOut' }}
             >
-              Le damos la bienvenida a...
+              Welcome
             </motion.span>
             
             Aterra
@@ -74,7 +74,7 @@ const HeroSection = () => {
                 width: '100%',
                 height: 'auto',
                 borderRadius: '1.5rem',
-                boxShadow: '0 12px 30px rgba(0,0,0,0.2)',
+                boxShadow: '0 12px 30px rgba(0, 0, 0, 0.2)',
                 transition: 'all 0.3s ease-in-out'
               }}
             />
