@@ -6,6 +6,7 @@ import LocalesCarousel from './LocalesCarousel';
 import { motion } from 'framer-motion';
 import ContactoInfo from './ContactoInfo';
 import './App.css';
+import LocationSection from './LocationSection';
 const { Header, Content } = Layout;
 const { Title, Paragraph, Text } = Typography;
 
@@ -314,9 +315,8 @@ const ArtWalkApp = () => {
           </Col>
         </Row>
 
-  
-
-
+        {/* Location Section */}
+        <LocationSection />
 
       </Content>
     </Layout>
