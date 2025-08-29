@@ -18,7 +18,17 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, ease: 'easeOut' }}
           >
+            <motion.span
+              className="hero-subtitle"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.9, delay: 0.3, ease: 'easeOut' }}
+            >
+              Welcome
+            </motion.span>
+            
             Aterra
+
             <motion.span
               className="hero-subtitle"
               initial={{ opacity: 0, y: 20 }}
@@ -64,7 +74,7 @@ const HeroSection = () => {
                 width: '100%',
                 height: 'auto',
                 borderRadius: '1.5rem',
-                boxShadow: '0 12px 30px rgba(0,0,0,0.2)',
+                boxShadow: '0 12px 30px rgba(0, 0, 0, 0.2)',
                 transition: 'all 0.3s ease-in-out'
               }}
             />
