@@ -318,6 +318,10 @@ const ArtWalkApp = () => {
         {/* Location Section */}
         <LocationSection />
 
+        {/* Contact Info Section */}
+        <Divider style={{ margin: '40px 0 30px' }} />
+        <ContactoInfo />
+
       </Content>
     </Layout>
   );
